@@ -1,0 +1,134 @@
+/* services.css 
+Tristan Boudreau */
+
+* {
+    box-sizing: border-box;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.services-header-img {
+    margin-top: 25px;
+    width: auto;
+    margin-left: 0px;
+}
+
+.container {
+    width: 880px;
+    /* TB LR */
+    margin-bottom: 58px;
+  }
+
+header nav {
+  display: flex;
+  vertical-align: middle;
+  margin-top: 35px;
+  justify-content: flex-start;
+}
+
+header nav a {
+  margin-right: 65px;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav a:first-child {
+    margin-left: 0;
+  }
+  
+  header nav a:last-child {
+    margin-right: 0;
+  }
+  
+  nav .logo {
+    margin-top: 0px;
+    justify-content: right;
+    margin-left: 200px;
+  }
+
+div .serv {
+    border-bottom: 2px solid black;
+    margin-bottom: 58px;
+}
+
+ div {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+  } 
+ 
+button {
+    width: 150px;
+    height: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.Cont1 {
+    border-top: 2px solid black;
+}
+
+.Cont1, .Cont2, .Cont3, .Cont4, .Cont5, .Cont6 {
+    width: 425px;
+    height: 275px;
+    background: lightgray;
+    border: 1px solid black;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 15px;
+   }
+
+body {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    flex-direction: row;
+}
+
+
+
+footer {
+    margin-left: 50px;
+    margin-right: 45px;
+    text-align: left;
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-top: 2px solid black;
+}
+
+.servfax {
+    /* border-top: 2px solid black; */
+    margin-top: 58px;
+    width: 45%;
+}
+
+.complady {
+width: 40%;
+margin-top: 80px;
+}
+
+.copyfoot {
+    margin-left:42%;
+}
